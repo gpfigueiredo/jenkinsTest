@@ -4,9 +4,9 @@ pipeline{
 	agent any
 	
 	stages{
-		stage('compile in gcc'){
+		stage('compile in gcc he'){
 			       steps{
-				sh 'gcc hello.c'   
+					sh 'gcc hello.c'   
 				   }
 		}
 	}
